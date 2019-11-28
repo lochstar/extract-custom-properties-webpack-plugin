@@ -1,0 +1,47 @@
+{
+  "name": "extract-custom-properties-webpack-plugin",
+  "version": "0.0.1",
+  "description": "A Webpack plugin to extract CSS Custom Properties.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "custom-properties",
+    "variables",
+    "vars",
+    "webpack"
+  ],
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "Lochlan McBride <lochlan@gmail.com>",
+  "license": "MIT",
+  "repository": "lochstar/extract-custom-properties-webpack-plugin",
+  "bugs": {
+    "url": "https://github.com/lochstar/extract-custom-properties-webpack-plugin/issues"
+  },
+  "homepage": "http://github.com/lochstar/extract-custom-properties-webpack-plugin",
+  "main": "src/index.js",
+  "jest": {
+    "testEnvironment": "node",
+    "watchPathIgnorePatterns": [
+      "<rootDir>/test/js/*.*"
+    ]
+  },
+  "dependencies": {
+    "postcss": "^7.0.23",
+    "postcss-extract-custom-properties": "^0.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-jest": "^24.9.0",
+    "core-js": "^3.4.3",
+    "css-loader": "^3.2.0",
+    "jest": "^24.9.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "webpack": "^4.41.2"
+  }
+}

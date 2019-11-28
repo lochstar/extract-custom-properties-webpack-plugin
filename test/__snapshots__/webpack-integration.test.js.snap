@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Webpack Integration Tests assetNameRegExp 1`] = `
+"{
+  \\"dashedColor\\": {
+    \\"color\\": [
+      \\"a\\"
+    ],
+    \\"background-color\\": [
+      \\".class2:after\\"
+    ]
+  },
+  \\"dividerColor\\": {
+    \\"border-color\\": [
+      \\"code\\"
+    ],
+    \\"color\\": [
+      \\".class3\\"
+    ]
+  },
+  \\"baseColor\\": {
+    \\"color\\": [
+      \\".class1\\"
+    ],
+    \\"border-color\\": [
+      \\".class1\\"
+    ]
+  },
+  \\"sizeH1\\": {
+    \\"font-size\\": [
+      \\".class1\\"
+    ]
+  },
+  \\"camelColor\\": {
+    \\"color\\": [
+      \\".class2\\",
+      \\".class4:not(:first-child)\\",
+      \\".classCamel\\"
+    ]
+  }
+}"
+`;
+
+exports[`Webpack Integration Tests default 1`] = `
+"{
+  \\"dashedColor\\": {
+    \\"color\\": [
+      \\"a\\"
+    ],
+    \\"background-color\\": [
+      \\".class2:after\\"
+    ]
+  },
+  \\"dividerColor\\": {
+    \\"border-color\\": [
+      \\"code\\"
+    ],
+    \\"color\\": [
+      \\".class3\\"
+    ]
+  },
+  \\"baseColor\\": {
+    \\"color\\": [
+      \\".class1\\"
+    ],
+    \\"border-color\\": [
+      \\".class1\\"
+    ]
+  },
+  \\"sizeH1\\": {
+    \\"font-size\\": [
+      \\".class1\\"
+    ]
+  },
+  \\"camelColor\\": {
+    \\"color\\": [
+      \\".class2\\",
+      \\".class4:not(:first-child)\\",
+      \\".classCamel\\"
+    ]
+  }
+}"
+`;
+
+exports[`Webpack Integration Tests filename 1`] = `
+"{
+  \\"dashedColor\\": {
+    \\"color\\": [
+      \\"a\\"
+    ],
+    \\"background-color\\": [
+      \\".class2:after\\"
+    ]
+  },
+  \\"dividerColor\\": {
+    \\"border-color\\": [
+      \\"code\\"
+    ],
+    \\"color\\": [
+      \\".class3\\"
+    ]
+  },
+  \\"baseColor\\": {
+    \\"color\\": [
+      \\".class1\\"
+    ],
+    \\"border-color\\": [
+      \\".class1\\"
+    ]
+  },
+  \\"sizeH1\\": {
+    \\"font-size\\": [
+      \\".class1\\"
+    ]
+  },
+  \\"camelColor\\": {
+    \\"color\\": [
+      \\".class2\\",
+      \\".class4:not(:first-child)\\",
+      \\".classCamel\\"
+    ]
+  }
+}"
+`;
