@@ -30,7 +30,7 @@
     ]
   },
   "dependencies": {
-    "postcss": "^7.0.23",
+    "postcss": "^8.2.10",
     "postcss-extract-custom-properties": "^0.1.2"
   },
   "devDependencies": {
